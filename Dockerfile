@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM --platform=linux/arm64/v8 debian:latest
 LABEL Dan Burkland <dburkland@dburkland.com>
 WORKDIR /tmp/
 
